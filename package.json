@@ -1,0 +1,29 @@
+{
+  "name": "garik-group-main-stage",
+  "version": "1.0.0",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "iOS >= 10.0",
+    "last 3 versions",
+    "not ie <= 11",
+    "not op_mini all"
+    ],
+  "description": "building company landing page",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html --dist-dir ./dist",
+    "build": "parcel build index.html --dist-dir ./dist --public-url ./"
+  },
+  "author": "glacien",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.10.0",
+    "@parcel/transformer-webmanifest": "^2.10.0",
+    "firebase-tools": "^12.7.0",
+    "parcel": "^2.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

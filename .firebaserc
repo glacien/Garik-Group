@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "garik-group"
+  },
+  "targets": {
+    "garik-group": {
+      "hosting": {
+        "main": [
+          "garik-group"
+        ],
+        "test": [
+          "garik-group-test"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

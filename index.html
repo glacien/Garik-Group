@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ласкаво просимо до будівельної компанії Garik Group! Ми - молода та амбітна команда професіоналів, що ставить професійний підхід та доступні ціни на перше місце"
+    />
+    <link rel="icon" href="src/img/favicon.png" />
+    <link rel="apple-touch-icon" href="src/img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/queries.css" />
+    <script
+      type="module"
+      defer
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" defer src="src/js/script.js"></script>
+    <title>Garik Group | Stavební Firma</title>
+  </head>
+
+  <body id="top">
+    <header class="header">
+      <a class="btn" href="#">
+        <img
+          class="logo"
+          src="src/img/main-logo.png"
+          alt="Garik Group company main logo"
+        />
+      </a>
+      <div class="languages">
+        <button class="current-language">
+          <img
+            class="flag"
+            src="src/img/flag-czech.webp"
+            alt="Czech flag"
+            data-language="cs"
+          />
+          <div class="arrow-icon">
+            <span class="left-bar"></span>
+            <span class="right-bar"></span>
+          </div>
+        </button>
+        <div class="other-languages">
+          <button class="language">
+            <img
+              class="flag"
+              src="src/img/flag-gb.webp"
+              alt="Great Britain flag"
+              data-language="en"
+            />
+          </button>
+          <button class="language">
+            <img
+              class="flag"
+              src="src/img/flag-ukraine.webp"
+              alt="Ukrainian flag"
+              data-language="uk"
+            />
+          </button>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <ul class="list main-nav-links">
+          <li><a class="btn" href="#" data-language-el-1="cs">O nás</a></li>
+          <li class="main-nav--services--li">
+            <a class="btn main-nav--services" href="#section--our-services">
+              <p data-language-el-2="cs">Naše služby</p>
+              <div class="arrow-icon">
+                <span class="left-bar"></span>
+                <span class="right-bar"></span>
+              </div>
+            </a>
+            <div class="helper"></div>
+            <nav class="secondary-nav">
+              <ul class="list">
+                <li>
+                  <a
+                    class="btn"
+                    href="#section--our-services--1"
+                    data-language-el-3="cs"
+                    >Stavba na klíč</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="btn"
+                    href="#section--our-services--2"
+                    data-language-el-4="cs"
+                    >Renovační práce</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </li>
+          <li>
+            <a
+              class="btn"
+              href="#section--our-advantages"
+              data-language-el-5="cs"
+              >Naše vyhody</a
+            >
+          </li>
+          <li>
+            <a class="btn btn--cta" href="#section--cta" data-language-el-6="cs"
+              >Uciť pohodlí</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="menu">
+        <button class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="menu-content">
+          <ul class="list main-nav-links">
+            <li><a class="btn" href="#" data-language-el-1="cs">O nás</a></li>
+            <li class="main-nav--services--li">
+              <a class="btn main-nav--services" href="#section--our-services">
+                <p data-language-el-2="cs">Naše služby</p>
+                <div class="arrow-icon">
+                  <span class="left-bar"></span>
+                  <span class="right-bar"></span>
+                </div>
+              </a>
+              <div class="helper"></div>
+              <nav class="secondary-nav">
+                <ul class="list">
+                  <li>
+                    <a
+                      class="btn"
+                      href="#section--our-services--1"
+                      data-language-el-3="cs"
+                      >Stavba na klíč</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn"
+                      href="#section--our-services--2"
+                      data-language-el-4="cs"
+                      >Renovační práce</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </li>
+            <li>
+              <a
+                class="btn"
+                href="#section--our-advantages"
+                data-language-el-5="cs"
+                >Naše vyhody</a
+              >
+            </li>
+            <li>
+              <a
+                class="btn btn--cta"
+                href="#section--cta"
+                data-language-el-6="cs"
+                >Uciť pohodlí</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="section hero"
+        aria-label="header section with man painting walls on background image"
+      >
+        <div class="hero-box">
+          <div class="hero-text-box">
+            <h2 class="h2 h2-header" data-language-el-1="cs">O nás</h2>
+            <h1 data-language-el-7="cs">Zpříjemníme váš domov!</h1>
+            <p class="p" data-language-el-8="cs">
+              Vítáme Vás na stránce stavební firmy Garik Group! Jsme nová a
+              ambiciózní skupina profesionálů, která dává profesní přístup a
+              přijatelný ceny na první místo. Z Vašich představ uděláme realitu
+              při pomocí kvalifikovaných pracovníků a individualnímu přístup ke
+              každému projektu. Svěřte nám Vaše sny a my rádi poskytneme naše
+              spolehlivé a kvalitní služby!
+            </p>
+            <a class="btn btn--cta" href="#section--cta" data-language-el-6="cs"
+              >Uciť pohodlí</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section services" id="section--our-services">
+        <h2 class="h2" data-language-el-2="cs">Naše služby</h2>
+        <div class="section-div complete-building">
+          <div class="feature-row" id="section--our-services--1">
+            <div class="feature-row--text">
+              <h3 class="h3" data-language-el-3="cs">Stavba na klíč</h3>
+              <p class="p" data-language-el-9="cs">
+                Výstavba bytových domů - je celá řada stavebních služeb, které
+                nabízíme našim zákazníkům pro pohodlí a účinnost. Můžete nám
+                svěřit svůj projekt a my vezmeme na sebe všechny stavební
+                aspekty, začinajíci myšlenkou a končicí dokončenou stavbou. Náše
+                služba "Stavba na klíč" zaručuje kvalitu a včasné dokončení
+                projektů, které Vás zbaví přebytečných starostí
+              </p>
+              <a class="btn" data-language-el-10="cs">Zjistit více &darr;</a>
+            </div>
+            <div
+              class="feature-row--img"
+              role="img"
+              aria-label="man holding keys in front of a house"
+            ></div>
+          </div>
+          <div class="f-pattern roled">
+            <figure class="f-pattern--element">
+              <div
+                class="f-pattern--img f-pattern--img--1"
+                role="img"
+                aria-label="keys on a wooden table"
+              ></div>
+              <div>
+                <h4 class="h4" data-language-el-11="cs">
+                  Výhody služby 'Stavba na klíč'
+                </h4>
+                <p class="p" data-language-el-12="cs">
+                  'Stavba na klíč' poskytuje zákazníkům výjimečnou úroveň
+                  pohodlí a zjednodušuje stavební proces. Misto toho, abyste
+                  rešili koordinaci několik dodavatelů, Vy spolupracujete pouze
+                  s námi. To Vám umožní snížit náklady, ušetřit čas a zabránit
+                  neočekávaným problémům. Naše vysoce kvalifikovaný specialisté
+                  zaručují, že Váš projekt bude realizován s přesností do
+                  nejmenších detailů
+                </p>
+              </div>
+            </figure>
+            <figure class="f-pattern--element">
+              <div
+                class="f-pattern--img f-pattern--img--2"
+                role="img"
+                aria-label="two mans building house"
+              ></div>
+              <h4 class="h4" data-language-el-13="cs">
+                Proces 'Stavba na klíč'
+              </h4>
+              <p class="p" data-language-el-14="cs">
+                Náš proces 'Stavba na klíč' zahrnuje několik klíčových kroků.
+                Začiná návrhem a přípravou dokumentace. My nakupujeme materiál,
+                provádíme stavební práce, instalace systémů a povrchové úpravy.
+                Po schválení plánů my provádíme veškeré stavební práce,
+                kontrolujeme kvalitu a termíny. Efiktivně vedeme dialog s
+                klientem v každé fázi projektu, abychom mohli zajistit radost z
+                konečného výsledku
+              </p>
+            </figure>
+            <figure class="f-pattern--element">
+              <div
+                class="f-pattern--img f-pattern--img--3"
+                role="img"
+                aria-label="people have a dialog in front of a house"
+              ></div>
+              <h4 class="h4" data-language-el-15="cs">Proces spoluprace</h4>
+              <p class="p" data-language-el-16="cs">
+                Pohodlí a spokojenost našich klientů v náši společnosti je pro
+                nás prioritou. Hned po první konzultace naši odborníci budou
+                pozorně poslouchat Vaše přání, požadavky a případne rozpočtové
+                omezení. My zpracujeme přesný plán projektu, který Vám umožní se
+                podivát, jak bude hotový objekt vypadat. V průběhu stavebního
+                procesu budeme s Vámi komunikovat tak, abyste se ujistili, že
+                Vaše přání budou splněna na 100%
+              </p>
+            </figure>
+          </div>
+        </div>
+        <div class="section-div reconditioning" id="section--our-services--2">
+          <h3 class="h3" data-language-el-4="cs">Renovační práce</h3>
+          <div class="tab-component">
+            <div class="tab-component--tabs">
+              <ul class="list tabs">
+                <li>
+                  <button class="tab--btn tab--btn--active" data-btn-number="1">
+                    <div class="tab--btn-border"></div>
+                    <p data-language-el-17="cs">Design interiéru</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="tab--btn" data-btn-number="2">
+                    <div class="tab--btn-border"></div>
+                    <p data-language-el-18="cs">Pokládka dlažby</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="tab--btn" data-btn-number="3">
+                    <div class="tab--btn-border"></div>
+                    <p data-language-el-19="cs">Malování</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="tab--btn" data-btn-number="4">
+                    <div class="tab--btn-border"></div>
+                    <p data-language-el-20="cs">
+                      Instalace inženýrských systémů
+                    </p>
+                  </button>
+                </li>
+                <li>
+                  <button class="tab--btn" data-btn-number="5">
+                    <div class="tab--btn-border"></div>
+                    <p data-language-el-21="cs">Vnější úprava</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="tab--btn" data-btn-number="6">
+                    <div class="tab--btn-border"></div>
+                    <p data-language-el-22="cs">Ploty</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="tab--btn" data-btn-number="7">
+                    <div class="tab--btn-border"></div>
+                    <p data-language-el-23="cs">Úklid</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="tab--btn" data-btn-number="8">
+                    <div class="tab--btn-border"></div>
+                    <p data-language-el-24="cs">Ostatní opravné práce</p>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <figure
+              class="tab-content tab-content--active"
+              data-figure-number="1"
+            >
+              <div class="tab-content--img">
+                <div
+                  class="tab--img tab--img--1"
+                  role="img"
+                  aria-label="man laying wood laminate on the floor"
+                ></div>
+                <p class="tab--text" data-language-el-17="cs">
+                  Design interiéru
+                </p>
+              </div>
+              <ul class="list">
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-25="cs">Pokládka laminátu</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-26="cs">Instalace parket</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-27="cs">Pokládka vinylových podlah</p>
+                </li>
+              </ul>
+            </figure>
+            <figure class="tab-content" data-figure-number="2">
+              <div class="tab-content--img">
+                <div
+                  class="tab--img tab--img--2"
+                  role="img"
+                  aria-label="man laying white tile on the floor"
+                ></div>
+                <p class="tab--text" data-language-el-18="cs">
+                  Pokládka dlažby
+                </p>
+              </div>
+              <ul class="list">
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-28="cs">
+                    Dlažba na podlaze, na zdi,<br />mozaika
+                  </p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-29="cs">
+                    Vodotěsná dlažba pro<br />koupelny a kuchyně
+                  </p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-30="cs">
+                    Pokládka dlažby na vnější<br />straně fasáda budovy
+                  </p>
+                </li>
+              </ul>
+            </figure>
+            <figure class="tab-content" data-figure-number="3">
+              <div class="tab-content--img">
+                <div
+                  class="tab--img tab--img--3"
+                  role="img"
+                  aria-label="man painting walls turquoise"
+                ></div>
+                <p class="tab--text" data-language-el-19="cs">Malování</p>
+              </div>
+              <ul class="list">
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-31="cs">Malování stěn a stropů</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-32="cs">Vnitřní a vnější malba</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-33="cs">Tmel: obyčejný, dekorativní</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-34="cs">
+                    Malování dřevěných a<br />kovových povrchu
+                  </p>
+                </li>
+              </ul>
+            </figure>
+            <figure class="tab-content" data-figure-number="4">
+              <div class="tab-content--img">
+                <div
+                  class="tab--img tab--img--4"
+                  role="img"
+                  aria-label="man drilling hole in a brick wall"
+                ></div>
+                <p class="tab--text" data-language-el-20="cs">
+                  Instalace inženýrských systémů
+                </p>
+              </div>
+              <ul class="list">
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-35="cs">Instalace topných systémů</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-36="cs">
+                    Uspořádání systémů kanalizace<br />a odvodnění
+                  </p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-37="cs">Služby elektrikáře</p>
+                </li>
+              </ul>
+            </figure>
+            <figure class="tab-content" data-figure-number="5">
+              <div class="tab-content--img">
+                <div
+                  class="tab--img tab--img--5"
+                  role="img"
+                  aria-label="beautiful terrace in brown tones"
+                ></div>
+                <p class="tab--text" data-language-el-21="cs">Vnější úprava</p>
+              </div>
+              <ul class="list">
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-38="cs">Stavba altánů, teras</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-39="cs">
+                    Uspořádání cest, příjezdových cest,<br />parkoviště,
+                    dlažební kostky
+                  </p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-40="cs">Hydroizolace základů, střech</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-41="cs">Zateplování budov</p>
+                </li>
+              </ul>
+            </figure>
+            <figure class="tab-content" data-figure-number="6">
+              <div class="tab-content--img">
+                <div
+                  class="tab--img tab--img--6"
+                  role="img"
+                  aria-label="fence in brown tones in rain"
+                ></div>
+                <p class="tab--text" data-language-el-22="cs">Ploty</p>
+              </div>
+              <ul class="list">
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-42="cs">Ploty obyčejné</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-43="cs">Ploty dekorativní</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-44="cs">
+                    Ploty dle individuální<br />objednávky
+                  </p>
+                </li>
+              </ul>
+            </figure>
+            <figure class="tab-content" data-figure-number="7">
+              <div class="tab-content--img">
+                <div
+                  class="tab--img tab--img--7"
+                  role="img"
+                  aria-label="man cleaning window with spatula"
+                ></div>
+                <p class="tab--text" data-language-el-23="cs">Úklid</p>
+              </div>
+              <ul class="list">
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-45="cs">Úklid staveniště</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-46="cs">
+                    Úklid po dokončení stavby<br />nebo opravy
+                  </p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-47="cs">
+                    Kompletní úklid bytů<br />a komerčních prostorů
+                  </p>
+                </li>
+              </ul>
+            </figure>
+            <figure class="tab-content" data-figure-number="8">
+              <div class="tab-content--img">
+                <div
+                  class="tab--img tab--img--8"
+                  role="img"
+                  aria-label="old abandoned homestead"
+                ></div>
+                <p class="tab--text" data-language-el-24="cs">
+                  Ostatní opravné práce
+                </p>
+              </div>
+              <ul class="list">
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-48="cs">Modernizace budov a staveb</p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-49="cs">
+                    Výměna oken, dveří,<br />instalatérství atd.
+                  </p>
+                </li>
+                <li class="tab--list-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  <p data-language-el-50="cs">
+                    Kosmetické opravy bytových<br />domů a komerčních prostoru
+                  </p>
+                </li>
+              </ul>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="section--our-advantages">
+        <h2 class="h2" data-language-el-5="cs">Naše vyhody</h2>
+        <div class="section-div feature-boxes">
+          <figure class="feature-box feature-box--1">
+            <div class="feature-box--closed">
+              <ion-icon name="school-outline"></ion-icon>
+              <span data-language-el-51="cs"
+                >Zkušenost a<br />profesionalita</span
+              >
+              <div class="feature-box--details">
+                <p class="p" data-language-el-52="cs">
+                  Náš tým obsahuje vysoce kvalifikovaní specialisté, kteří mají
+                  dlouholeté zkušenosti ve stavebnictví. Máme všechny potřebné
+                  znalosti a dovednosti k provádění jakýkoliv projektů
+                </p>
+              </div>
+            </div>
+          </figure>
+          <figure class="feature-box feature-box--2">
+            <div class="feature-box--closed">
+              <ion-icon name="thumbs-up-outline"></ion-icon>
+              <span data-language-el-53="cs">Kvalita stavby</span>
+              <div class="feature-box--details">
+                <p class="p" data-language-el-54="cs">
+                  Snažíme se o vysokou kvalitu ve všech aspektech naší práce.
+                  Používáme pouze ověřené a certifikované stavební materiály,
+                  které zaručují spolehlivost a trvanlivost našich projektu
+                </p>
+              </div>
+            </div>
+          </figure>
+          <figure class="feature-box feature-box--3">
+            <div class="feature-box--closed">
+              <ion-icon name="cash-outline"></ion-icon>
+              <span data-language-el-55="cs">Dostupné ceny</span>
+              <div class="feature-box--details">
+                <p class="p" data-language-el-56="cs">
+                  Nabízíme služby za přijatelné ceny aniž bychom zanedbávali
+                  jejich kvalitu. Zaručujeme postivost s klienty
+                </p>
+              </div>
+            </div>
+          </figure>
+          <figure class="feature-box feature-box--4">
+            <div class="feature-box--closed">
+              <ion-icon name="people-outline"></ion-icon>
+              <span data-language-el-57="cs">Individuální<br />přístup</span>
+              <div class="feature-box--details">
+                <p class="p" data-language-el-58="cs">
+                  Chápeme, že každý klient má vlastní vyjimečné potřeby a přání.
+                  Kvuli tomu nabízíme pro každého individuální přístup, kde
+                  zohledníme všechna Vaše přání a vytvoříme řešení, který je pro
+                  Vás ideální
+                </p>
+              </div>
+            </div>
+          </figure>
+          <figure class="feature-box feature-box--5">
+            <div class="feature-box--closed">
+              <ion-icon name="hourglass-outline"></ion-icon>
+              <span data-language-el-59="cs">Naléhavost<br />provedení</span>
+              <div class="feature-box--details">
+                <p class="p" data-language-el-60="cs">
+                  Chápeme důležitost dochvilnosti pro naše klienty av ždy
+                  dodržujeme dohodnuté harmonogramy a dokončujeme projekty v
+                  dohodnutém termínu
+                </p>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section class="section" id="section--cta">
+        <div class="section-div form">
+          <h2 class="h2" data-language-el-61="cs">
+            Zažijte pohodlí ve svém domově!
+          </h2>
+          <p class="p" data-language-el-62="cs">
+            Vyplňte krátký formulář a my se Vám ozveme, jakmile to bude možné!
+          </p>
+          <form
+            class="form-div"
+            action="https://formsubmit.co/cyberkaktus1879@gmail.com"
+            method="POST"
+          >
+            <input type="text" name="_honey" style="display: none" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:8080/form-submission.html"
+            />
+            <input
+              type="hidden"
+              name="_subject"
+              value="Кто-то хочет связаться с вами через сайт Garik Group!"
+            />
+            <div class="form--element">
+              <label for="your-name" data-language-el-63="cs">Jméno</label>
+              <input required type="text" name="name" id="your-name" />
+            </div>
+            <div class="form--element">
+              <label for="tel-number" data-language-el-64="cs"
+                >Telefonní číslo</label
+              >
+              <input
+                required
+                type="tel"
+                name="telephone&nbsp;number"
+                id="tel-number"
+              />
+            </div>
+            <div class="form--element">
+              <label for="email" data-language-el-65="cs">E-mail</label>
+              <input required type="email" name="email" id="email" />
+            </div>
+            <div class="form--element">
+              <label for="your-city" data-language-el-66="cs">Město</label>
+              <input required type="text" name="city" id="your-city" />
+            </div>
+            <div class="form--element form--element--large">
+              <label for="other" data-language-el-67="cs"
+                >Napište o co máte zájem (volitelné)</label
+              >
+              <textarea name="other" id="other"></textarea>
+            </div>
+            <button data-language-el-68="cs">Poslat</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer--copyright">
+        <div class="footer--logos">
+          <div class="footer--logo">
+            <svg>
+              <use href="src/img/icons.svg#garik-group-logo-1"></use>
+            </svg>
+          </div>
+          <div class="footer--logo">
+            <svg>
+              <use href="src/img/icons.svg#garik-group-logo-2"></use>
+            </svg>
+          </div>
+          <div class="footer--logo">
+            <svg>
+              <use href="src/img/icons.svg#garik-group-logo-3"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="footer--copyright--text">
+          <p>Garik Group s.r.o. | Stavební Firma</p>
+          <p>
+            Copyright &copy; <span class="footer--year">2023</span> by Garik
+            Group<br />All rights reserved
+          </p>
+        </div>
+      </div>
+      <div class="footer--contact">
+        <div class="footer--contact--adress">
+          <p>Our contacts:</p>
+          <address>
+            <p>
+              <a href="mailto:someemail123@gmail.com">someemail123@gmail.com</a>
+            </p>
+            <p><a href="tel:+420111222333">+420111222333</a> Olexandr</p>
+            <p>Hronovická 498, 530 02, Pardubice - Zelené Předměstí</p>
+          </address>
+        </div>
+        <div class="footer--contact--aside">
+          <p>
+            Designed by <a href="mailto:cyberkaktus1879@gmail.com">glacien</a>
+          </p>
+          <p>Images from <a href="https://ru.freepik.com/">freepik</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
